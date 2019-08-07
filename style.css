@@ -1,0 +1,110 @@
+body {
+  background-color: rgb(228, 228, 228);
+  color: #26006b;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 17px;
+  font-weight: 200;
+  text-align: center;
+}
+
+a {
+  color: #8163c7;
+  font-weight: bold;
+  text-decoration: solid;
+}
+
+p {
+  margin-top: 13px;
+  margin-bottom: 25px;
+}
+
+h1 {
+  font-family: 'Blinker', sans-serif;
+  margin-bottom: 0px;
+  margin-top: 4px;
+}
+
+h2 {
+  color: #5b5861;
+  font-size: 23px;
+  font-weight: 900;
+  margin-top: 0;
+}
+
+h3 {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-size: 24px;
+}
+
+ul > li {
+  list-style-type: none;
+  display: inline;
+  size: 10px;
+  font-size: 50px;
+}
+
+ul {
+  padding: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.link_card:hover {
+  background-color: darkgrey
+}
+
+.icon:hover {
+  color: darkgrey
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 84%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 23px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border: 1px solid lightgrey;
+}
+
+.link_card {
+  margin: 0 auto;
+  padding: 10px;
+  width: 200px;
+  background-color: lightgrey;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.photo {
+  border-radius: 50%
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
